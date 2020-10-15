@@ -1,5 +1,4 @@
-# GCTB_Epigenome
-Epigenomic characterisation of the giant cell tumor of bone
+# Epigenomic characterisation of the giant cell tumor of bone
 
 
 This repository contains source code behind this preprint:
@@ -7,11 +6,15 @@ This repository contains source code behind this preprint:
 https://www.medrxiv.org/content/10.1101/2020.05.26.20089888v1
 
 
-Essential steps of the GCTB analysis
+## Essential steps of the GCTB analysis
 
-1. Initial processing of the whole-genome sequencing data, including SNP, CNV and SV calling, was performed with the DKFZ/PCAWG WGS analysis workflow, available as a Docker container from: 
+1. Initial processing of the whole-genome sequencing data, including SNP and CNV calling, was performed with the DKFZ/PCAWG WGS analysis workflow, available as a Docker container from: 
 
 https://dockstore.org/containers/quay.io/pancancer/pcawg-dkfz-workflow
+
+Structural variant identification with SOPHIA:
+
+https://bitbucket.org/utoprak/sophia/src
 
 2. A compatible CWL worfklow for the intial processing ot the whole-genome bisulfite data, from reads to methylation calls:
 
