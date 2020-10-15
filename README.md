@@ -25,7 +25,11 @@ https://github.com/CompEpigen/ATACseq_workflows
 
 https://github.com/CompEpigen/ChIPseq_workflows
 
-5. Code for calling of LMDs from WGBS data:
+5. A snakemake-based processing workflow for RNA-seq data:
+
+https://github.com/CompEpigen/RNASeq_GCTB. 
+
+6. Code for calling of LMDs from WGBS data:
 
 https://github.com/lutsik/CP-LMDs
 
